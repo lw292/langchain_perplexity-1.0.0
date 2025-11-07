@@ -1,5 +1,16 @@
 # langchain-perplexity
 
+> **⚠️ NOTICE: This is a PATCHED/MODIFIED version, NOT the official release.**
+> 
+> This fork modifies the openai dependency to support older versions.
+
+## 🔧 What's Changed?
+
+**Modified Dependencies:**
+- `openai`: Changed from `>=2.0.0,<3.0.0` to `>=1.108.1,<3.0.0`
+
+This allows compatibility with projects using OpenAI SDK versions 1.108.1 and above.
+
 [![PyPI - Version](https://img.shields.io/pypi/v/langchain-perplexity?label=%20)](https://pypi.org/project/langchain-perplexity/#history)
 [![PyPI - License](https://img.shields.io/pypi/l/langchain-perplexity)](https://opensource.org/licenses/MIT)
 [![PyPI - Downloads](https://img.shields.io/pepy/dt/langchain-perplexity)](https://pypistats.org/packages/langchain-perplexity)
